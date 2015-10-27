@@ -14,7 +14,10 @@ public class FieldDisplay {
 
     public void render() {
         int size = mField.size();
-        System.out.println("  1 2 3 4 5 6 7 8 9 10");
+        for (int oneToTen = 1; oneToTen <= 10; oneToTen++) {
+            System.out.print(" " + oneToTen);
+        }
+        System.out.println("");
         for (int i = 0; i < size; i++) {
             System.out.print((char)(i + ('A')) + " ");
             for (int j = 0; j < size; j++) {

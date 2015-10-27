@@ -58,7 +58,7 @@ public class Battleship {
         if (coordinate.length() == 2) {
             char letter = coordinate.charAt(0);
             char number = coordinate.charAt(1);
-           // char number10 = coordinate.charAt(2);
+
             int x = (letter - 'A');
             int y = Character.getNumericValue(number) - 1;
 
